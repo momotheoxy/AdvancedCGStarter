@@ -68,7 +68,7 @@ Repo: https://github.com/momotheoxy/AdvancedCGStarter
 
 ## Windows (MSVC) — Setup
 
-1. Install **Visual Studio 2022 (Community)** with **Desktop development with C++**  
+1. Install **Visual Studio 2026 (Community)** with **Desktop development with C++**  
    https://visualstudio.microsoft.com/downloads/
 
 2. Open **PowerShell** and install:
@@ -150,7 +150,7 @@ Repo: https://github.com/momotheoxy/AdvancedCGStarter
 
 1. **Select a Configure Preset**  
    Press **Ctrl/Cmd + Shift + P** → **CMake: Select Configure Preset**:
-   - **Windows** → *Windows MSVC (VS2022)*
+   - **Windows** → *Windows MSVC (VS2026)*
    - **macOS (Intel)** → *macOS Intel (x64, Ninja)*
    - **macOS (Apple Silicon)** → *macOS Apple Silicon (arm64, Ninja)*
    - **Linux** → *Linux x64 (Ninja)*
@@ -189,11 +189,11 @@ Repo: https://github.com/momotheoxy/AdvancedCGStarter
 
 - **CMake picked GNU/MinGW instead of MSVC**  
   You used the wrong preset or an old cache.  
-  Select preset **Windows MSVC (VS2022)** → **CMake: Delete Cache and Reconfigure**.  
+  Select preset **Windows MSVC (VS2026)** → **CMake: Delete Cache and Reconfigure**.  
   The log should say: `The CXX compiler identification is MSVC …`.
 
 - **Ninja not found (Windows)**  
-  You are on a Ninja preset by mistake. Use **Windows MSVC (VS2022)** (MSBuild).  
+  You are on a Ninja preset by mistake. Use **Windows MSVC (VS2026)** (MSBuild).  
   Ninja is only used on macOS/Linux here.
 
 - **glfw/glew config not accepted**  
